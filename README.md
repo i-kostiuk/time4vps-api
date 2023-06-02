@@ -574,5 +574,3 @@ use Time4Vps\Time4Vps;
 $client = new Time4Vps($username, $password);
 $vpn_usage_history = $client->getVpnUsageHistory($id);
 ```
-
----
