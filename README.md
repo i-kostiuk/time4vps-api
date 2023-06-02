@@ -2,7 +2,27 @@
 
 I have implemented 45% of the methods from the documentation at https://billing.time4vps.com/userapi. I plan to implement all the available functions in the near future. Please support me with your interest if you find this package useful.
 
+# Install:
+
+`composer require i-kostiuk/time4vps-api `
+
+- ##### laravel:
+```php
+use Time4Vps\Time4Vps;
+
+$client = new Time4Vps($username, $password);
+```
+- ##### php:
+```php
+use Time4Vps\Time4Vps;
+
+require __DIR__ . "/vendor/autoload.php";
+
+$client = new Time4Vps($username, $password);
+```
+
 # Available methods:
+
 
 ### User Details
 
