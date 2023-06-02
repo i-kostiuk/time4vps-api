@@ -16,7 +16,7 @@ class ApiClient
 
     private Response $response;
 
-    public function __construct($username, $password) {
+    public function __construct(string $username, string $password) {
         self::$username = $username;
         self::$password = $password;
     }

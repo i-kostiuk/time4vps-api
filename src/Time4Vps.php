@@ -9,7 +9,7 @@ class Time4Vps
 
     private ApiClient $apiClient;
 
-    public function __construct($username, $password) {
+    public function __construct(string $username, string $password) {
         $this->apiClient = new ApiClient($username, $password);
     }
 
